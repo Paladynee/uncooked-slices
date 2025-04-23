@@ -77,7 +77,6 @@ impl<T: Copy> Iterator for UncookedSlice<T> {
 
         let new_len = old_len - 1;
         let new_ptr = unsafe { old_ptr.add(1) };
-
         let new_slice = ptr::slice_from_raw_parts_mut(new_ptr, new_len);
         self.inner = new_slice;
 
