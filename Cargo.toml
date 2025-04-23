@@ -1,0 +1,13 @@
+[package]
+name = "uncooked_slices"
+version = "0.1.0"
+edition = "2024"
+description = "A wrapper around raw slice pointers that enables safe iteration and indexing"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/uncooked_slices"
+documentation = "https://docs.rs/uncooked_slices"
+keywords = ["slice", "pointer", "unsafe", "no_std", "raw"]
+categories = ["no-std", "memory-management", "rust-patterns"]
+
+[dependencies]
